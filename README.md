@@ -14,14 +14,15 @@ Summary: Add dunder-methods to SQLAlchemy models with attrs
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/attrs-sqlalchemy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/attrs-sqlalchemy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/attrs-sqlalchemy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/attrs-sqlalchemy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/attrs-sqlalchemy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/attrs-sqlalchemy-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/attrs-sqlalchemy-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/attrs-sqlalchemy-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/attrs-sqlalchemy/badges/version.svg)](https://anaconda.org/conda-forge/attrs-sqlalchemy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/attrs-sqlalchemy/badges/downloads.svg)](https://anaconda.org/conda-forge/attrs-sqlalchemy)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-attrs--sqlalchemy-green.svg)](https://anaconda.org/conda-forge/attrs-sqlalchemy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/attrs-sqlalchemy.svg)](https://anaconda.org/conda-forge/attrs-sqlalchemy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/attrs-sqlalchemy.svg)](https://anaconda.org/conda-forge/attrs-sqlalchemy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/attrs-sqlalchemy.svg)](https://anaconda.org/conda-forge/attrs-sqlalchemy) |
 
 Installing attrs-sqlalchemy
 ===========================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
